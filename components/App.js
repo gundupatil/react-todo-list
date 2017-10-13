@@ -1,12 +1,12 @@
-import React, { Componet } from 'react'
+import React from 'react'
 
-class App extends Componet{
+var App = React.createClass ({
 
     render(){
         return <div> This is definitely a React app now!</div>
 
     }
 
-}
+})
 
 export default App
